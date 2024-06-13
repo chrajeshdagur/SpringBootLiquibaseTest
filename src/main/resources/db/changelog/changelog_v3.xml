@@ -16,6 +16,10 @@
             age int,
             email varchar(100))
         </sql>
+
+        <sql>
+                INSERT INTO purelocally (name, age, email) values ('Hero', 003, 'heroraj@gml.com')
+        </sql>
     </changeSet>
 
 </databaseChangeLog>
