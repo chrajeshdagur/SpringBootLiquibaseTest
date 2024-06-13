@@ -11,9 +11,9 @@
 
     <changeSet  id="5"  author="rajeshKumar">
         <sql>
-            INSERT INTO purelocally (name, age, email) values ('Hero1', 003, 'heroraj@gml.com')
-            INSERT INTO purelocally (name, age, email) values ('Hero1', 003, 'heroraj@gml.com')
-            INSERT INTO purelocally (name, age, email) values ('Hero3', 003, 'heroraj@gml.com')
+            INSERT INTO purelocally (name, age, email) values ('Hero1', 003, 'heroraj@gml.com');
+            INSERT INTO purelocally (name, age, email) values ('Hero1', 003, 'heroraj@gml.com');
+            INSERT INTO purelocally (name, age, email) values ('Hero3', 003, 'heroraj@gml.com');
         </sql>
     </changeSet>
 
