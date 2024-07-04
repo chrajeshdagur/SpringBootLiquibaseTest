@@ -11,8 +11,8 @@ pipeline {
 	                    sh 'mvn --version'
 	                    sh 'java --version'
 	                    echo "Hello"
-	                    sh 'rm -rf LiquibaseTest'
-	                    sh 'git clone https://github.com/chrajeshdagur/LiquibaseTest.git'
+	                    sh 'rm -rf SpringBootLiquibaseTest'
+	                    sh 'git clone https://github.com/chrajeshdagur/SpringBootLiquibaseTest.git'
 	                }
 	            }
 	        }
@@ -26,7 +26,7 @@ pipeline {
 	        
 	        stage('Maven build') {
                 steps {
-					dir('LiquibaseTest') {
+					dir('SpringBootLiquibaseTest') {
                     sh 'pwd'
 	                sh 'mvn clean install'
                   }
